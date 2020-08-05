@@ -53,13 +53,13 @@ public class UserController {
     @GetMapping(path = "/email/{email}")
     public UserResponse getUsersByEmail(@PathVariable String email){
         UserResponse returnValue = userservice.getUsersByEmail(email);
-        System.out.println("In the controller with email");
+        System.out.println("In controller with email");
         return returnValue;
     }
 
     @PutMapping
     public UserResponse updateUser(@RequestBody Users user){
-        System.out.println("In the put mapping");
+        System.out.println("In put mapping");
         UserResponse returnValue = userservice.updateUser(user);
         return returnValue;
     }
