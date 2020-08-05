@@ -2,9 +2,9 @@ package com.bates.spring;
 
 
 import com.bates.spring.dto.UserDto;
-import com.bates.spring.model.Users;
-import com.bates.spring.model.request.UserRequest;
-import com.bates.spring.model.response.UserResponse;
+import main.java.com.bates.spring.model.Users;
+import main.java.com.bates.spring.model.request.UserRequest;
+import main.java.com.bates.spring.model.response.response.UserResponse;
 import com.bates.spring.services.UserService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.BeanUtils;

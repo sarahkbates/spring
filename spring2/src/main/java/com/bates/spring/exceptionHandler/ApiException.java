@@ -1,4 +1,4 @@
-package com.bates.spring.exceptionHandler;
+package main.java.com.bates.spring.exceptionHandler;
 
 import org.springframework.http.HttpStatus;
 
@@ -18,18 +18,22 @@ public class ApiException {
     }
 
     public String getMessage() {
+
         return message;
     }
 
     public Throwable getThrowable() {
+
         return throwable;
     }
 
     public HttpStatus getHttpStatus() {
+
         return httpStatus;
     }
 
     public ZonedDateTime getTimestamp() {
+
         return timestamp;
     }
 }

@@ -1,9 +1,8 @@
-package com.bates.spring.dao;
+package main.java.com.bates.spring.dao;
 
 
-import com.bates.spring.model.Users;
-import org.springframework.data.repository.PagingAndSortingRepository;
-import org.springframework.stereotype.Repository;
+import main.java.com.bates.spring.model.Users;
+
 
 @Repository
 public interface UserRepository extends PagingAndSortingRepository<Users, Long> {

@@ -3,10 +3,9 @@ package com.bates.spring.services;
 
 
 import com.bates.spring.dto.UserDto;
-import com.bates.spring.model.Users;
-import com.bates.spring.model.response.UserResponse;
+import main.java.com.bates.spring.model.Users;
+import main.java.com.bates.spring.model.response.response.UserResponse;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface UserService {

@@ -1,4 +1,4 @@
-package com.bates.spring.exceptionHandler;
+package main.java.com.bates.spring.exceptionHandler;
 
 public class ApiRequestException extends RuntimeException{
 
